@@ -7,9 +7,9 @@
 </head>
 <body>
 <!-- Навигация -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">3D-моделирование</a>
+        <a class="navbar-brand" href="#">3D-Моделирование</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -21,11 +21,26 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#lists">Списки</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#tables">Таблицы</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#graphics">Графика</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#frames">Фреймы</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#form">Формы</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#map">Карта</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sound">Музыка</a>
+                </li>
+
             </ul>
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
         </div>
     </div>
 </nav>
@@ -44,8 +59,10 @@
             </div>
             <img
                     class="img-fluid w-50 d-none d-sm-block"
-                    src="TaeJune8.jpg"
+                    src="Images/TaeJune8.jpg"
                     alt=""
+                    width="100"
+                    height="100"
             />
         </div>
     </div>
@@ -90,10 +107,178 @@
             </dl>
         </div>
     </div>
-
-
 </section>
 
+<!-- Таблицы -->
+<section class="bg-dark p-5" id="tables">
+    <div class="container">
+        <h2 class="text-light py-2">Программы для 3D-моделирования</h2>
+        <table class="table bg-light">
+        <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Название программы</th>
+            <th scope="col">Описание</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>Autodesk 3ds Max</td>
+            <td>3ds Max — одна из старейших и самых распространенных программ для 3D-моделирования. Для нее выпущено больше всего видеоуроков, курсов и дополнительных расширений. Часто новички выбирают ее именно поэтому. Разработчики программы предоставляют для учащихся бесплатную версию на три года — чтобы ее оформить, достаточно зарегистрироваться в качестве студента.</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>Maya</td>
+            <td>Эту программу для 3D-моделирования больше всего любят в США и Европе, так что, если вы думаете о работе с зарубежными студиями, стоит начать изучение именно с этого софта. Так же, как и у Autodesk 3ds Max, у Maya есть бесплатная версия для студентов.</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>Cinema 4D</td>
+            <td>Эту программу отличает приятный и удобный интерфейс, который легче воспринимается новичками. Раньше Cinema 4D использовалась преимущественно для моушн-дизайна, но в последнее время все чаще можно увидеть специалистов из кино и рекламы, работающих в ней. Из минусов можно отметить только стоимость программы и отсутствие студенческой версии. Скачать бесплатную пробную версию можно на официальном сайте.</td>
+        </tr>
+        <tr>
+            <th scope="row">4</th>
+            <td>Houdini</td>
+            <td>Именно в Houdini собираются сцены фильмов или видео, а все потому, что программа обладает мощными возможностями для создания спецэффектов. Более того, эта программа для 3D-моделирования удобна для эффективной работы над сложными и нестандартными задачами. Если вы хотите работать в сфере VFX1 и заниматься разработкой зрелищных эффектов, стоит попробовать изучить этот 3D-пакет. Студенты и новички в компьютерной графике могут установить бесплатную версию программы.</td>
+        </tr>
+        <tr>
+            <th scope="row">5</th>
+            <td>Blender</td>
+            <td>За последние пару лет Blender стал одной из самых популярных программ для создания трехмерной графики. Плюсов много: полностью бесплатная, кроссплатформенная и удобная программа с гибким интерфейсом и частыми обновлениями привлекает как новичков, так и профессионалов, ранее работавших в других 3D-пакетах. Еще одно преимущество — очень развитое комьюнити, всегда готовое прийти на помощь начинающим CG2-художникам. Скачать программу можно на официальном сайте.</td>
+        </tr>
+        <tr>
+            <th scope="row">6</th>
+            <td>ZBrush</td>
+            <td>Эта программа для 3D-«лепки», которую часто изучают в дополнение к уже пройденным, — она позволяет полностью раскрыть творческий потенциал. В ZBrush чувствуешь себя настоящим скульптором, ведь приходится работать с «цифровой глиной», с помощью различных инструментов создавая из нее разнообразные объекты. Программа идеальна для работы с людьми, животными и различными материалами — она не имеет аналогов и отлично подойдет тем, кто уже знаком с 3D-моделированием и хочет усовершенствовать свои навыки. Загрузить пробную версию программы можно на сайте.</td>
+        </tr>
+        </tbody>
+        </table>
+    </div>
+</section>
+
+<!--Графика-->
+<section class="bg-light p-5" id="graphics">
+    <div class="container">
+        <h2 class="py-2">Создание модели персонажа для игры</h2>
+        <div class="d-sm-flex align-content-centre p-2">
+            <p><b>Этап 1 — Концепты и дизайн</b>
+                Как и в любом другом деле, начинать следует с идеи, которую нам необходимо выразить в концептах. Это важный этап, который будет фундаментом для всей дальнейшей работы. На самом деле не так важно, какого качество будут эскизы (да-да, я имею ввиду себя) главное, чтобы они были. Потому что эскиз это план, следуя которому вы сэкономите уйму времени и нервов. Имея эскиз, вы будете четко представлять финальный результат и шаги, которые необходимы для его реализации. Как говорится «Кораблю, который не знает куда плыть, никакой ветер не будет попутным».
+            </p>
+            <img class="img-fluid w-50 justify-content-between" src="Images/mod1.jpg" align="right" height="200" width="200" alt="">
+        </div>
+        <div class="d-sm-flex align-content-centre p-2">
+            <img src="Images/mod2.jpg" alt="" class="img-fluid w-50 justify-content-between p-2" align="left" height="200" width="200">
+            <p><b>Этап 2 — Скульптинг high poly модели</b>
+                Вам потребуется задействовать все имеющиеся знания и навыки, чтобы вылепить вашего персонажа, не жалея полигонов. Главная задача — создать максимально детализированную модель. Потому что, на следующих этапах, внести какую либо детализацию будет проблематично. Для этой задачи прекрасно подойдет ZBrush или Sculptris. Если модель не сильно сложная, я предпочитаю использовать Sculptris, так как в нем крайне аскетичный интерфейс и есть возможность создания динамической топологии.</p>
+        </div>
+        <div class="d-sm-flex align-content-centre flex-column p-2">
+            <p><b>Этап 3 — Ретопология</b>
+                Завершив работу над high poly моделью, можно смело приступать к ее оптимизации, потому что в том виде, в котором находится модель сейчас, использование в игре крайне не рационально. Вряд ли найдется тот смельчак, который отважился бы заскинить модель в 20 миллионов полигонов и с абсолютно хаотичной сеткой. Поэтому мы приступаем к процессу ретопологии, основной сутью которого является уменьшение количество полигонов до оптимального и построения правильной сетки пригодной для анимации. Ретопологию можно делать как в стороннем софте, так и в 3D Max с помощью инструмента PolyDraw. Собственно к этому и приступаем. Стараемся строить топологию используя «лупы» (loop, с англ. — петля, виток) в местах сгибов, это облегчит дальнейший скиннинг и обеспечит анимациям более естественный вид.</p>
+        <img src="Images/mod3.jpg" alt="" class="img-fluid p-2 w-50" align="centre" height="200" width="200">
+        </div>
+    </div>
+</section>
+
+<!--Фреймы-->
+<section class="bg-dark text-light p-5" id="frames">
+    <div class="container">
+        <h2 class="p-3">Обучающее видео по 3D-Моделированию</h2>
+        <iframe width="100%" height="700" src="https://www.youtube.com/embed/TPrnSACiTJ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</section>
+
+<!--Форма-->
+<section class="bg-light p-5" id="form">
+    <div class="container">
+        <div class="align-items-center">
+            <div>
+                <button
+                        class="btn btn-primary btn-lg"
+                        data-bs-toggle="modal"
+                        data-bs-target="#enroll"
+                >
+                    Зарегистрироваться
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div
+        class="modal fade"
+        id="enroll"
+        tabindex="-1"
+        aria-labelledby="enrollLabel"
+        aria-hidden="true"
+>
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="enrollLabel">Регистрация</h5>
+                <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                ></button>
+            </div>
+            <div class="modal-body">
+                <p class="lead">Заполните для регистрации</p>
+                <form action="http://www.mysite.com/cgi-bin/test.exe" method="post">
+                    <div class="mb-3">
+                        <label for="first-name" class="col-form-label">
+                            Имя:
+                        </label>
+                        <input type="text" class="form-control" id="first-name" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="last-name" class="col-form-label">Фамилия:</label>
+                        <input type="text" class="form-control" id="last-name" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="col-form-label">Email:</label>
+                        <input type="email" class="form-control" id="email" />
+                    </div>
+                    <p>Независимый переключатель <input type="checkbox" value="checked"> </p>
+                    <p>Группа переключателей</p>
+                    <p>Альтернатива 1 <input type="radio" name="groupl" value="check1"> </p>
+                    <p>Альтернатива 2 <input type="radio" name="groupl" value="check2"> </p>
+                    <p>Альтернатива 3 <input type="radio" name="groupl" value="check3"> </p>
+                    <button type="submit" class="btn btn-primary">Зарегистрироваться</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Крата-->
+<section class="bg-dark p-5 text-light" id="map">
+    <div class="container">
+        <h2 class="py-3">Ссылки на программы для работы с 3D-Графикой</h2>
+
+        <img src="Images/MyCollages.jpg" usemap="#image-map">
+
+        <map name="image-map">
+            <area target="" alt="3ds" title="3ds" href="https://www.autodesk.ru/products/3ds-max/overview" coords="1,0,489,313" shape="rect">
+            <area target="" alt="maya" title="maya" href="https://www.autodesk.ru/products/maya/overview" coords="988,325,506,0" shape="rect">
+            <area target="" alt="4d" title="4d" href="https://www.maxon.net/ru/cinema-4d" coords="9,339,497,658" shape="rect">
+            <area target="" alt="hud" title="hud" href="https://www.sidefx.com/" coords="506,339,990,658" shape="rect">
+            <area target="" alt="blend" title="blend" href="https://www.blender.org/" coords="13,666,497,996" shape="rect">
+            <area target="" alt="z" title="z" href="https://pixologic.com/" coords="" shape="rect">
+        </map>
+    </div>
+</section>
+
+<!--Звук-->
+<section class="bg-dark p-5 text-light" id="sound">
+    <div class="container">
+        <audio controls>
+            <source src="Travis%20Scott%20feat.%20Drake%20-%20Sicko%20Mode%20(megapesni.com).mp3">
+        </audio>
+    </div>
+</section>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
