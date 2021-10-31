@@ -18,26 +18,37 @@
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#main">Главная</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#lists">Списки</a>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        html
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#lists">Списки</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#tables">Таблицы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#graphics">Графика</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#frames">Фреймы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#form">Формы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#map">Карта</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#sound">Музыка</a>
+                        </li>
+                    </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#tables">Таблицы</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#graphics">Графика</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#frames">Фреймы</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#form">Формы</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#map">Карта</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#sound">Музыка</a>
+                    <a class="nav-link text-light" href="#carousel">Слайдер</a>
                 </li>
 
             </ul>
@@ -165,10 +176,10 @@
             <p><b>Этап 1 — Концепты и дизайн</b>
                 Как и в любом другом деле, начинать следует с идеи, которую нам необходимо выразить в концептах. Это важный этап, который будет фундаментом для всей дальнейшей работы. На самом деле не так важно, какого качество будут эскизы (да-да, я имею ввиду себя) главное, чтобы они были. Потому что эскиз это план, следуя которому вы сэкономите уйму времени и нервов. Имея эскиз, вы будете четко представлять финальный результат и шаги, которые необходимы для его реализации. Как говорится «Кораблю, который не знает куда плыть, никакой ветер не будет попутным».
             </p>
-            <img class="img-fluid w-50 justify-content-between" src="Images/mod1.jpg" align="right" height="200" width="200" alt="">
+            <img class="img-fluid w-50 justify-content-between" src="Images/mod1.jpg" height="200" width="200" alt="">
         </div>
         <div class="d-sm-flex align-content-centre p-2">
-            <img src="Images/mod2.jpg" alt="" class="img-fluid w-50 justify-content-between p-2" align="left" height="200" width="200">
+            <img src="Images/mod2.jpg" alt="" class="img-fluid w-50 justify-content-between p-2"  height="200" width="200">
             <p><b>Этап 2 — Скульптинг high poly модели</b>
                 Вам потребуется задействовать все имеющиеся знания и навыки, чтобы вылепить вашего персонажа, не жалея полигонов. Главная задача — создать максимально детализированную модель. Потому что, на следующих этапах, внести какую либо детализацию будет проблематично. Для этой задачи прекрасно подойдет ZBrush или Sculptris. Если модель не сильно сложная, я предпочитаю использовать Sculptris, так как в нем крайне аскетичный интерфейс и есть возможность создания динамической топологии.</p>
         </div>
@@ -258,7 +269,7 @@
     <div class="container">
         <h2 class="py-3">Ссылки на программы для работы с 3D-Графикой</h2>
 
-        <img src="Images/MyCollages.jpg" usemap="#image-map">
+        <img src="Images/MyCollages.jpg" width="100%" usemap="#image-map">
 
         <map name="image-map">
             <area target="" alt="3ds" title="3ds" href="https://www.autodesk.ru/products/3ds-max/overview" coords="1,0,489,313" shape="rect">
@@ -277,6 +288,36 @@
         <audio controls>
             <source src="Travis%20Scott%20feat.%20Drake%20-%20Sicko%20Mode%20(megapesni.com).mp3">
         </audio>
+    </div>
+</section>
+
+
+<!--Карусель-->
+<section class="bg-white p-5 text-light" id="carousel">
+    <div class="container">
+        <h2 class="py-3 text-dark">Слайдер</h2>
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Images/mod1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Images/mod2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Images/mod3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </div>
 </section>
 
